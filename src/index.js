@@ -15,8 +15,8 @@ const startServer = () => {
         cron.schedule('0 8 * * *', () => {
             sendEmail
             (
-                'shuklatesting02@gmail.com',       // sender emailId
-                'shuklatesting02@gmail.com',      // reciever emailId
+                '<mail_From>@gmail.com',    // sender emailId
+                '<mail_To>@gmail.com',      // reciever emailId
                 'Quote Of the day'               // title
             
             )
